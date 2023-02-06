@@ -1,0 +1,15 @@
+C:\Users\Decagon\source\repos\GloboTicket.TicketManagement\GloboTickect.TicketMangement.Application\bin\Debug\net6.0\GloboTickect.TicketMangement.Application.deps.json
+C:\Users\Decagon\source\repos\GloboTicket.TicketManagement\GloboTickect.TicketMangement.Application\bin\Debug\net6.0\GloboTickect.TicketMangement.Application.dll
+C:\Users\Decagon\source\repos\GloboTicket.TicketManagement\GloboTickect.TicketMangement.Application\bin\Debug\net6.0\GloboTickect.TicketMangement.Application.pdb
+C:\Users\Decagon\source\repos\GloboTicket.TicketManagement\GloboTickect.TicketMangement.Application\bin\Debug\net6.0\GloboTickect.TicketMangement.Domain.dll
+C:\Users\Decagon\source\repos\GloboTicket.TicketManagement\GloboTickect.TicketMangement.Application\bin\Debug\net6.0\GloboTickect.TicketMangement.Domain.pdb
+C:\Users\Decagon\source\repos\GloboTicket.TicketManagement\GloboTickect.TicketMangement.Application\obj\Debug\net6.0\GloboTickect.TicketMangement.Application.csproj.AssemblyReference.cache
+C:\Users\Decagon\source\repos\GloboTicket.TicketManagement\GloboTickect.TicketMangement.Application\obj\Debug\net6.0\GloboTickect.TicketMangement.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Decagon\source\repos\GloboTicket.TicketManagement\GloboTickect.TicketMangement.Application\obj\Debug\net6.0\GloboTickect.TicketMangement.Application.AssemblyInfoInputs.cache
+C:\Users\Decagon\source\repos\GloboTicket.TicketManagement\GloboTickect.TicketMangement.Application\obj\Debug\net6.0\GloboTickect.TicketMangement.Application.AssemblyInfo.cs
+C:\Users\Decagon\source\repos\GloboTicket.TicketManagement\GloboTickect.TicketMangement.Application\obj\Debug\net6.0\GloboTickect.TicketMangement.Application.csproj.CoreCompileInputs.cache
+C:\Users\Decagon\source\repos\GloboTicket.TicketManagement\GloboTickect.TicketMangement.Application\obj\Debug\net6.0\GloboTickect.TicketMangement.Application.csproj.CopyComplete
+C:\Users\Decagon\source\repos\GloboTicket.TicketManagement\GloboTickect.TicketMangement.Application\obj\Debug\net6.0\GloboTickect.TicketMangement.Application.dll
+C:\Users\Decagon\source\repos\GloboTicket.TicketManagement\GloboTickect.TicketMangement.Application\obj\Debug\net6.0\refint\GloboTickect.TicketMangement.Application.dll
+C:\Users\Decagon\source\repos\GloboTicket.TicketManagement\GloboTickect.TicketMangement.Application\obj\Debug\net6.0\GloboTickect.TicketMangement.Application.pdb
+C:\Users\Decagon\source\repos\GloboTicket.TicketManagement\GloboTickect.TicketMangement.Application\obj\Debug\net6.0\ref\GloboTickect.TicketMangement.Application.dll
