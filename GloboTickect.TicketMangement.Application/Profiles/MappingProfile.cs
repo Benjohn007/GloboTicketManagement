@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using GloboTickect.TicketMangement.Application.Features.Events;
+using GloboTickect.TicketMangement.Domain.events;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,10 @@ namespace GloboTickect.TicketMangement.Application.Profiles
     {
         public MappingProfile()
         {
-            CreateMap<EventArgs, EventListVm>().ReverseMap();
+            CreateMap<Event, EventListVm>().ReverseMap();
+            CreateMap<Event, EventListVm>().ReverseMap();
+            CreateMap<Category, CategoryDto>();
+
         }
     }
 }
