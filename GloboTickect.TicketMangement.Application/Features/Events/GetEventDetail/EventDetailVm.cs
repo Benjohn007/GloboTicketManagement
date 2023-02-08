@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GloboTickect.TicketMangement.Application.Features.Events
+namespace GloboTickect.TicketMangement.Application.Features.Events.GetEventDetail
 {
     public class EventDetailVm
     {
         public Guid EventId { get; set; }
-        public string Name { get; set; } = String.Empty;
+        public string Name { get; set; } = string.Empty;
         public int Price { get; set; }
         public string? Artist { get; set; }
         public DateTime Date { get; set; }

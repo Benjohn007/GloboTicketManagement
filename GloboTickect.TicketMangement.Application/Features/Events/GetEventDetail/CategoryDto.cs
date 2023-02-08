@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GloboTickect.TicketMangement.Application.Features.Events
+namespace GloboTickect.TicketMangement.Application.Features.Events.GetEventDetail
 {
     public class CategoryDto
     {

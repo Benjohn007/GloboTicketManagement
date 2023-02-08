@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GloboTickect.TicketMangement.Application.Features.Events
+namespace GloboTickect.TicketMangement.Application.Features.Events.GetEventDetail
 {
     public class GetEventDetailQueryHandler : IRequestHandler<GetEventDetailQuery, EventDetailVm>
     {
@@ -16,8 +16,8 @@ namespace GloboTickect.TicketMangement.Application.Features.Events
         private readonly IAsyncRepository<Event> _eventRepository;
         private readonly IAsyncRepository<Category> _categoryRepository;
 
-        public GetEventDetailQueryHandler(IMapper mapper, 
-            IAsyncRepository<Event> eventRepository, IAsyncRepository<Category> categoryRepository) 
+        public GetEventDetailQueryHandler(IMapper mapper,
+            IAsyncRepository<Event> eventRepository, IAsyncRepository<Category> categoryRepository)
         {
             _mapper = mapper;
             _eventRepository = eventRepository;
@@ -31,7 +31,7 @@ namespace GloboTickect.TicketMangement.Application.Features.Events
             var eventDetailDto = _mapper.Map<EventDetailVm>(@event);
 
             var category = await _categoryRepository.GetByIdAsync(requset.Id);
-            
+
             eventDetailDto.Category = _mapper.Map<CategoryDto>(category);
 
             return eventDetailDto;

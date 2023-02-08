@@ -9,5 +9,6 @@ namespace GloboTickect.TicketMangement.Application.Contracts.Persistent
 {
     public interface ICategoryRepository : IAsyncRepository<Category>
     {
+        Task<List<Category>> GetCategoriesWithEvents(bool includePassedEvents);
     }
 }
