@@ -1,4 +1,9 @@
 ﻿using AutoMapper;
+using GloboTickect.TicketMangement.Application.Features.Categories.Queries.GetCategoriesList;
+using GloboTickect.TicketMangement.Application.Features.Categories.Queries.GetCategoriesListWithEvents;
+using GloboTickect.TicketMangement.Application.Features.Events.Commands.CreateEvent;
+using GloboTickect.TicketMangement.Application.Features.Events.Commands.DeleteEvent;
+using GloboTickect.TicketMangement.Application.Features.Events.Commands.UpdateEvent;
 using GloboTickect.TicketMangement.Application.Features.Events.GetEventDetail;
 using GloboTickect.TicketMangement.Application.Features.Events.GetEventsList;
 using GloboTickect.TicketMangement.Domain.events;
@@ -17,6 +22,12 @@ namespace GloboTickect.TicketMangement.Application.Profiles
             CreateMap<Event, EventListVm>().ReverseMap();
             CreateMap<Event, EventListVm>().ReverseMap();
             CreateMap<Category, CategoryDto>();
+            CreateMap<Category, CategoryListVm>();
+            CreateMap<Category, CategoryEventListVm>();
+
+            CreateMap<Event, CreateEventCommand>().ReverseMap();
+            CreateMap<Event, UpdateEventCommand>().ReverseMap();
+            CreateMap<Event, DeleteEventCommand>().ReverseMap();
 
         }
     }
